@@ -1,0 +1,298 @@
+ @font-face {
+     font-family: 'MyFont';
+     src: url(fonts/Roboto-Regular.ttf);
+ }
+
+
+ .container__main {
+     height: 600px;
+     width: 1200px;
+     background-color: black;
+ }
+
+ .header {
+     padding: 30px 60px;
+ }
+
+ .header .header__container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .header .header__container .header__icon1 {
+     display: flex;
+ }
+
+ .header .header__container .header__icon1 .header__icon-f1 {
+     border-radius: 50%;
+     height: 20px;
+     width: 20px;
+     border: 1px solid white;
+     margin-right: 5px;
+     /* position: absolute;
+    top: 370px;
+    right: 408px; */
+ }
+
+ .header .header__container .header__icon1 .header__icon-f2 {
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 22px solid white;
+     margin-right: 5px;
+
+ }
+
+ .header .header__container .header__icon1 .header__icon-f2a {
+     width: 0;
+     height: 0;
+     position: absolute;
+     left: 98px;
+     top: 40px;
+     border-left: 7px solid transparent;
+     border-right: 7px solid transparent;
+     border-bottom: 19px solid black;
+ }
+
+ .header .header__container .header__icon1 .header__icon-f3 {
+     height: 20px;
+     width: 20px;
+     border: 1px solid white;
+
+     /* position: absolute;
+    top: 370px;
+    right: 408px; */
+ }
+
+ .header .header__container .header__icon2 img {
+     width: 150px;
+     height: 80px;
+ }
+
+ .header .header__container .header__icon3 img {
+     width: 35px;
+     height: 35px;
+ }
+
+ .content {}
+
+ .content .content__container {}
+
+ .content .content__container .content__list img {
+     height: 300px;
+     width: 200px;
+     clip-path: circle(100px at 100px -25px);
+     position: absolute;
+     top: 170px;
+     left: 400px;
+ }
+
+ .content .content__container .content__center img {
+     position: absolute;
+     top: 110px;
+     left: 430px;
+     height: 400px;
+     width: 400px;
+ }
+
+ .content .content__container .content__center .content__circle {
+     border-radius: 50%;
+     height: 90px;
+     width: 90px;
+     border: 3px solid palevioletred;
+     position: absolute;
+     top: 170px;
+     left: 450px;
+ }
+
+ .content .content__container .content__text {
+     font-family: 'MyFont';
+     position: absolute;
+     top: 190px;
+     left: 60px;
+     color: white;
+     font-size: 30px;
+ }
+
+ .content .content__container .content__text2 {
+     font-family: 'MyFont';
+     position: absolute;
+     top: 230px;
+     left: 60px;
+     color: white;
+     font-size: 15px;
+ }
+
+
+ .content .content__container .content__figuresonleft .header__icon-f2 {
+     width: 0;
+     height: 0;
+     position: absolute;
+     left: 30px;
+     top: 230px;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 20px solid white;
+ }
+
+ .content .content__container .content__figuresonleft .header__icon-f2a {
+     width: 0;
+     height: 0;
+     position: absolute;
+     left: 33px;
+     top: 230px;
+     border-left: 7px solid transparent;
+     border-right: 7px solid transparent;
+     border-bottom: 19px solid black;
+ }
+
+ .content .content__container .content__figuresonleft .header__icon-f1 {
+     height: 20px;
+     width: 20px;
+     position: absolute;
+     left: 30px;
+     top: 255px;
+     border: 1px solid white;
+
+     /* position: absolute;
+   top: 370px;
+   right: 408px; */
+ }
+
+ .content .content__container .content__square {
+     height: 80px;
+     width: 80px;
+     border: 3px solid palevioletred;
+     position: absolute;
+     top: 350px;
+     left: 350px;
+ }
+
+ .content .content__container .content__squaremain img {
+     height: 300px;
+     width: 400px;
+     clip-path: inset(5% 20% 70% 30%);
+     position: absolute;
+     top: 340px;
+     left: 190px;
+ }
+
+ .content .content__container .content__right img {
+     height: 300px;
+     width: 300px;
+     clip-path: polygon(40% 0, 100% 20%, 30% 15%);
+     position: absolute;
+     top: 370px;
+     right: 500px;
+ }
+
+ .content .content__container .content__right .content__right-square {
+     height: 180px;
+     width: 180px;
+     border: 5px solid palevioletred;
+     position: absolute;
+     top: 250px;
+     right: 350px;
+ }
+
+ .content .content__container .content__right-item img {
+     position: absolute;
+     top: 170px;
+     right: 360px;
+     height: 170px;
+     width: 170px;
+ }
+
+ .content .content__container .content__right-item .figure_text {
+     position: absolute;
+     top: 385px;
+     right: 425px;
+     color: white;
+     z-index: 1;
+     font-size: 10px;
+ }
+
+ .content .content__container .content__right-item .figure_square {
+     height: 40px;
+     width: 40px;
+     border: 1px solid palevioletred;
+     background-color: palevioletred;
+     position: absolute;
+     top: 370px;
+     right: 450px;
+     z-index: 0;
+ }
+
+ .content .content__container .content__right-item .figure_circle {
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     border: 1px solid palevioletred;
+     background-color: palevioletred;
+     position: absolute;
+     top: 370px;
+     right: 408px;
+     z-index: 0;
+ }
+
+ .content .content__container .content__right-item .figure_triangle {
+     border: 13px solid white;
+     clip-path: polygon(0 0, 100% 50%, 0 100%);
+     position: absolute;
+     top: 378px;
+     right: 390px;
+     z-index: 0;
+ }
+
+ .footer {
+     padding: 380px 60px;
+
+ }
+
+ .footer .footer__container {
+     display: flex;
+     justify-content: space-between;
+     color: white;
+ }
+
+ .footer .footer__container .footer__list {
+     display: flex;
+     align-items: center;
+ }
+
+ .footer .footer__container .footer__list .footer__list-item {
+    font-family: 'MyFont';
+     margin-right: 30px;
+     font-size: 15px;
+ }
+
+ .footer .footer__container .footer__list .footer__list-item-last {
+    font-family: 'MyFont';
+     color: darkgoldenrod;
+ }
+
+ .footer .footer__container .footer__list .footer__list-item-last img {
+     height: 15px;
+     width: 15px;
+     align-items: center;
+ }
+
+ .footer .footer__container .footer__list-center {
+     display: flex;
+     align-items: center;
+ }
+
+ .footer .footer__container .footer__list-center .footer__list-centertext {
+    font-family: 'MyFont';
+     font-size: 20px;
+     margin-right: 10px;
+ }
+
+ .footer .footer__container .footer__list-center .footer__list-centerbtn {
+     width: 0;
+     height: 0;
+     border-top: 7px solid transparent;
+     border-left: 17px solid white;
+     border-bottom: 7px solid transparent;
+ }
